@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Emergency Red Palette -->
+    <color name="red_primary">#D32F2F</color>
+    <color name="red_primary_dark">#B71C1C</color>
+    <color name="red_primary_light">#FFEBEE</color>
+    <color name="red_accent">#E53935</color>
+
+    <!-- Secondary & Status Colors -->
+    <color name="blue_accent">#1976D2</color>
+    <color name="blue_light">#E3F2FD</color>
+    <color name="green_status">#2E7D32</color>
+    <color name="green_light">#E8F5E9</color>
+    <color name="amber_warning">#ED6C02</color>
+    <color name="amber_light">#FFF4E5</color>
+
+    <!-- Background & Surface -->
+    <color name="bg_light">#F8F9FA</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="card_stroke">#E2E8F0</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1C1E</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="text_tertiary">#80868B</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

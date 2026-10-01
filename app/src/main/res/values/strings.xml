@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">sos</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_phone">Phone</string>
+    <string name="delete">Delete</string>
+    <string name="sos_button">SOS</string>
+    <string name="settings">Settings</string>
+    <string name="contacts">Contacts</string>
+    <string name="saved_number">Saved Number: %1$s</string>
+    <string name="no_number_saved">No emergency number saved</string>
+    <string name="number_deleted">Number deleted successfully</string>
+    <string name="enable_shake_detection">Enable Shake Detection</string>
+    <string name="enable_power_button">Enable Power Button SOS</string>
+
+</resources>

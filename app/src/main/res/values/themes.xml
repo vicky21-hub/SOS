@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Application Theme using Material Components -->
+    <style name="Theme.SOS" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryVariant">@color/red_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/blue_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status Bar & Window Insets -->
+        <item name="android:statusBarColor">@color/red_primary_dark</item>
+        <item name="android:windowBackground">@color/bg_light</item>
+        <item name="android:fitsSystemWindows">true</item>
+
+        <!-- Material Component Styles -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SOS.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.SOS.Medium</item>
+
+        <!-- Action Bar Customization -->
+        <item name="actionBarStyle">@style/Widget.SOS.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.SOS.ActionBar</item>
+    </style>
+
+    <style name="Widget.SOS.ActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/red_primary</item>
+        <item name="elevation">4dp</item>
+        <item name="titleTextStyle">@style/TextAppearance.SOS.ActionBar.Title</item>
+    </style>
+
+    <style name="ThemeOverlay.SOS.ActionBar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.SOS.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="ShapeAppearance.SOS.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="ShapeAppearance.SOS.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
